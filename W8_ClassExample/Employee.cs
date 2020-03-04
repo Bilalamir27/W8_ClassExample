@@ -4,10 +4,16 @@ using System.Text;
 
 namespace W8_ClassExample
 {
-    class Employee
+    public abstract class Employee
     {
         public string FirstName { get; set; } 
+   
         public string LastName { get; set; }
+
+        public int SIN { get; set; }
+
+        public abstract double CalculatePayroll();
+
 
     }
 }
