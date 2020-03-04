@@ -6,5 +6,8 @@ namespace W8_ClassExample
 {
     class Employee
     {
+        public string FirstName { get; set; } 
+        public string LastName { get; set; }
+
     }
 }

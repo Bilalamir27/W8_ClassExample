@@ -4,7 +4,8 @@ using System.Text;
 
 namespace W8_ClassExample
 {
-    class Hourly
+    class Hourly: Employee
     {
+
     }
 }

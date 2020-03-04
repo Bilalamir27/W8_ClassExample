@@ -6,7 +6,6 @@ namespace W8_ClassExample
 {
     class Salary
     {
-        public string FirstName { get; set; }
-
+        
     }
 }
